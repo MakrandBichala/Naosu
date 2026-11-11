@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+# xcode / mac
+xcuserdata/
+DerivedData/
+build/
+.DS_Store
+# separate repo (github.com/MakrandBichala/naosu-backend)
+naosu-backend/
+
+# local Claude notes, never commit
+CLAUDE.md
